@@ -34,7 +34,7 @@ sleep(1)
 print(green, '-=' * 11)
 print('\033[4;92mComputador jogou\033[0;90m {}'.format(itens[computador]))
 print('\033[4;92mJogador jogou\033[0;90m {}'.format(itens[jogador]))
-print(green, '-=\033[90m' * 11)
+print(green, '-=' * 11)
 
 #ESTRUTURAS CONDICIONAIS
 if computador == 0: #COMPUTADOR JOGOU PEDRA
